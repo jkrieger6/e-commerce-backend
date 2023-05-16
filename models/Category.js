@@ -12,17 +12,11 @@ Category.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-      validate: {
-        isNumeric: true,
-      }
     },
     category_name: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [1, 30],
-      }
-    }
+    },
   },
   {
     sequelize,
