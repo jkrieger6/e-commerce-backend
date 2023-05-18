@@ -18,7 +18,7 @@ npm install sequelize
 ```
 * Clone repository using GitHub
 ``` 
-git clone 
+git clone https://github.com/jkrieger6/e-commerce-backend.git
 ```
 * Made using the latest versions of Visual Studio Code
 * Made with the latest version of GitHub
