@@ -37,8 +37,6 @@ try {
   
 // create new product
 router.post('/products', (req, res) => {
-  
-});
   /* req.body should look like this...
     {
       product_name: "Basketball",
@@ -67,6 +65,7 @@ router.post('/products', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
+});
 
 // Update product
 router.put('/products/:id', (req, res) => {
