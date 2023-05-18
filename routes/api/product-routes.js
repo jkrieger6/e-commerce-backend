@@ -36,13 +36,8 @@ try {
 });
   
 // create new product
-router.post('/products', async (req, res) => {
-  try {
-    const productData = await Product.create(req.body);
-    res.status(200).json(productData);
-  } catch (err) {
-    res.status(500).json(err);
-  }
+router.post('/products', (req, res) => {
+  
 });
   /* req.body should look like this...
     {
