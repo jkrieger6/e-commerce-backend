@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
   });
 
 // get one product
-router.get('/products/:id', async (req, res) => {
+router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
 try {
@@ -36,7 +36,7 @@ try {
 });
   
 // create new product
-router.post('/products', (req, res) => {
+router.post('/', (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
@@ -68,7 +68,7 @@ router.post('/products', (req, res) => {
 });
 
 // Update product
-router.put('/products/:id', (req, res) => {
+router.put('/:id', (req, res) => {
   // Update product data
   Product.update(req.body, {
     where: {
@@ -109,7 +109,7 @@ router.put('/products/:id', (req, res) => {
     });
 });
 
-router.delete('/products/:id', async (req, res) => {
+router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
 try {
     const productData = await Product.destroy({
