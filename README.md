@@ -5,7 +5,7 @@ Build the back end for an e-commerce site by modifying starter code. Configure a
 Build the back end for an e-commerce site by modifying starter code. Configure a working express.js API to use sequelize to interact with a MySQL database. Create the routes for all models and properly identify and use the keys to show relationships between each model.
 
 ## Visuals
-* For a walkthrough video on how to use this application, please click the following link: 
+* For a walkthrough video on how to use this application, please click the following link: https://drive.google.com/file/d/1X6IsGgjRmFu4-H-4TXaZppbcP6M2lkDd/view
 
 ## Installation
 * Node version 16 is required to run this application
@@ -29,6 +29,16 @@ git clone https://github.com/jkrieger6/e-commerce-backend.git
 * To start this application, clone the repository to your local machine and run the following command in your terminal:
 ```
 npm start
+```
+* Run these commands in your terminal to create thte database and seed the tables:
+```
+mysql -u root -p
+```
+* Enter your mySQL password to get access to mySQL
+```
+source db/schema.sql;
+exit 
+node seeds/index.js
 ```
 
 ## License
