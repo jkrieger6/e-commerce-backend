@@ -1,4 +1,4 @@
-# e-commerce-backend
+# E Commerce Backend
 Build the back end for an e-commerce site. Configure a working express.js API to use sequelize to interact with a MySQL database.
 
 ## Project Description
