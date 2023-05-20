@@ -1,8 +1,8 @@
 # e-commerce-backend
-Build the back end for an e-commerce site by modifying starter code. Configure a working express.js API to use sequelize to interact with a MySQL database.
+Build the back end for an e-commerce site. Configure a working express.js API to use sequelize to interact with a MySQL database.
 
 ## Project Description
-Build the back end for an e-commerce site by modifying starter code. Configure a working express.js API to use sequelize to interact with a MySQL database. Create the routes for all models and properly identify and use the keys to show relationships between each model.
+Build the back end for an e-commerce site. Configure a working express.js API to use sequelize to interact with a MySQL database. Create the routes for all models and properly identify and use the keys to show relationships between each model. Use Insomnia to test that the routes are working properly.
 
 ## Visuals
 * For a walkthrough video on how to use this application, please click the following link: https://drive.google.com/file/d/1X6IsGgjRmFu4-H-4TXaZppbcP6M2lkDd/view
